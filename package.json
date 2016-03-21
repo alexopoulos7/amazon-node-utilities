@@ -1,0 +1,34 @@
+{
+  "name": "amazon-node-utilities",
+  "version": "1.0.0",
+  "description": "Collection of node utilities to be used with AWS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexopoulos7/amazon-node-utilities.git"
+  },
+  "keywords": [
+    "s3",
+    "utility",
+    "download",
+    "bucket"
+  ],
+  "author": "Angelos Alexopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexopoulos7/amazon-node-utilities/issues"
+  },
+  "homepage": "https://github.com/alexopoulos7/amazon-node-utilities",
+  "dependencies": {
+    "aws-sdk": "^2.2.45",
+    "rimraf": "^2.5.2",
+    "unit.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
